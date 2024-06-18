@@ -30,11 +30,18 @@ The script requires NLTK resources for sentence tokenization. You can download t
 1. Place your DOCX files:
 Place all the DOCX files you want to process in the same directory as the script.
 
-1. Run the script:
+2. Run the script:
 Execute the script using Python:
    ```bash
    python docx2xlsx.py
-1. Output:
+3. Output:
 The script will create corresponding Excel files for each DOCX file in the same directory. Each Excel file will have the name format **original_name_translate.xlsx**.
 ## License
-This project is licensed under the MIT License.
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- [python-docx](https://python-docx.readthedocs.io/)
+- [NLTK](https://www.nltk.org/)
+- [openpyxl](https://openpyxl.readthedocs.io/)
+- This script and README were generated with the assistance of [OpenAI's ChatGPT 4o](https://openai.com/chatgpt).
